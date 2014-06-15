@@ -3,8 +3,8 @@
 	"version": "0.2.10",
 	"homepage": "http://adodson.com/hello.js/",
 	"license" : "https://github.com/MrSwitch/hello.js/blob/master/LICENSE",
-	"main" : "dist/hello.js",
+	"main" : "dist/hello.all.js",
 	"scripts": [
-		"dist/hello.js"
+		"dist/hello.all.js"
 	]
 }
