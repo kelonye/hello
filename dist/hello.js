@@ -2686,12 +2686,4 @@ utils.extend(utils, {
 
 })(hello);
 
-//
-// AMD shim
-//
-if (typeof define === 'function' && define.amd) {
-	// AMD. Register as an anonymous module.
-	define(function(){
-		return hello;
-	});
-}
+module.exports = hello;
